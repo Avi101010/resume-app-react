@@ -39,8 +39,8 @@ const ResumeLeft = () => {
             <div className="mt-4"> 
                 <h4 className="letter-space">SKILLS</h4>
                 {
-                skills.map((m, i) => {
-                return <p className="mb-0">{m}</p>;
+                skills.map((skill, i) => {
+                return <p className="mb-0">{skill}</p>;
                 })
                 }
             </div>
