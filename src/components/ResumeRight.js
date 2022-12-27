@@ -2,7 +2,7 @@ const ResumeRight = () => {
     return (
         <div>
             <div className="mt-4">
-                <h4>WORK EXPERIENCE</h4>
+                <h4 className="letter-space">WORK EXPERIENCE</h4>
                 <h5 className="mt-4">SALES ASSISTANT</h5>
                 <p className="mb-0">eyesoftheworld</p>
                 <h6>October 2021 - Present</h6>

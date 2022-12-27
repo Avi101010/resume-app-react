@@ -18,13 +18,13 @@ const ResumeLeft = () => {
     return (
         <div>
             <div className="mt-4"> 
-                <h4>CONTACT</h4>
+                <h4 className="letter-space">CONTACT</h4>
                 <p className="mb-0">0402041516</p>
                 <p>xjavohi005@gmail.com</p>
             </div>
             
             <div className="mt-4"> 
-                <h4>EDUCATION</h4>
+                <h4 className="letter-space">EDUCATION</h4>
                 <h5>BACHELOR OF DATA SCIENCE</h5>
                 <p className="mb-0">SP Jain School of Data Science | <br></br>Sydney, Australia</p>
                 <h6>Jan 2021 - Jun 2024</h6>
@@ -37,7 +37,7 @@ const ResumeLeft = () => {
             </div>
             
             <div className="mt-4"> 
-                <h4>SKILLS</h4>
+                <h4 className="letter-space">SKILLS</h4>
                 {
                 skills.map((m, i) => {
                 return <p className="mb-0">{m}</p>;

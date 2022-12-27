@@ -6,7 +6,7 @@ import Resume from './components/Resume';
 
 function App() {
   return (
-    <div className="container">
+    <div className="App container">
       <Resume/>
     </div>
   );
